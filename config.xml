@@ -1,6 +1,6 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="amg.dev.scancodex" version="1">
-  <name>Scanner Codigos</name>
-  <description>xxxx</description>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="amg.dev.scanamg" version="1">
+  <name>scanamg</name>
+  <description>scanamg</description>
   <author href="#">Arodi Morga</author>
   <content src="index.html"/>
 
@@ -24,8 +24,8 @@
   <plugin name="cordova-plugin-vibration" source="npm" spec="2.1.0"/>
   <plugin name="cordova-plugin-whitelist" source="npm" spec="1.3.4"/>
   <plugin name="onesignal-cordova-plugin" source="npm" spec="2.8.4"/>
-  <plugin name="phonegap-plugin-barcodescanner" />
   <plugin name="https://github.com/katzer/cordova-plugin-local-notifications#caff55e" />
+  <plugin name="phonegap-plugin-barcodescanner" />
 
   <icon src="img/appicon.png"/>
   <platform name="android">
